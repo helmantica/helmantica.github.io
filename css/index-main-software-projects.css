@@ -1,0 +1,47 @@
+
+/*#section-projects, #section-katas, #section-subjects {
+    line-height: 1.6
+}*/
+.projects, ,.katas, .subjects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-software-project {
+    background-color: white;
+    margin: 10px 10px 10px 0px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.my-software-project h3 {
+    margin-top: 0;
+}
+.my-software-project a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.my-software-project a:hover {
+    text-decoration: underline;
+}
+.badges {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.badges img {
+    height: 24px;
+    margin-right: 4px;
+}
+
+@media (max-width: 768px) {
+    .badges {
+        gap: 4px;
+        margin-bottom: 5px;
+    }
+
+    .badges img {
+        height: 12px;
+        margin-right: 2px;
+    }
+}
